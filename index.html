@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Locas por el jardin</title>
-    <script src="script.js" defer></script>
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocasPorelJardin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+   <link rel="stylesheet" href="style/style.css">
+   <script src="./script/script.js" defer></script>
+</head> 
 <body>
-    <h1>Locas por el jardin</h1>
-    <p>
-        Esta pagina es un simulador de catalogo de flores de la marca "Locas por el jardin", en la interaccion con la pagina podras ver un catalogo de flores, donde podras agregar mas opciones a la lista si el usuario lo quisiera.
-    </p>
-
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-4 px-5">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active fs-4 fw-bold" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 fw-bold" href="#">Tienda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-4 fw-bold" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<section id="carrito">
+<h3>Carrito de compras</h3>
+</section>
+  <section class="contenedor"> <!--No entiendo porque pero se crea un margen de top extraño aca-->
+  <article class="producto">
+    <img src="./assets/amapola.jpg" alt="" class="fotos">
+    <h4>Amapola</h4>
+    <p>$10000</p>
+    <button class="agregar">Agregar al carrito</button>
+    <button class="menos">-</button>
+    <span class="cantidad">0</span>
+    <button class="mas">+</button>
+  </article>
+  <article class="producto">
+    <img src="./assets/lavanda.jpg" alt="" class="fotos">
+    <h4>Lavanda</h4>
+    <p>$8000</p>
+    <button class="agregar">Agregar al carrito</button>
+    <button class="menos">-</button>
+    <span class="cantidad">0</span>
+    <button class="mas">+</button>
+  </article><article class="producto">
+    <img src="./assets/tulipan.jpg" alt="" class="fotos">
+    <h4>Tulipan</h4>
+    <p>$13000</p>
+    <button class="agregar">Agregar al carrito</button>
+    <button class="menos">-</button>
+    <span class="cantidad">0</span>
+    <button class="mas">+</button>
+  </article>
+  
+  
 </body>
 </html>
